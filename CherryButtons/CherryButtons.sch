@@ -1,0 +1,149 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 61354CB1
+P 6300 2700
+F 0 "J2" H 6218 3117 50  0000 C CNN
+F 1 "Conn_01x06" H 6218 3026 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" H 6300 2700 50  0001 C CNN
+F 3 "~" H 6300 2700 50  0001 C CNN
+	1    6300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST_LED SW1
+U 1 1 61368547
+P 5400 2400
+F 0 "SW1" H 5400 2735 50  0000 C CNN
+F 1 "SW_SPST_LED" H 5400 2644 50  0000 C CNN
+F 2 "GUtils_Footprint:SW_Cherry_MX_LED" H 5400 2700 50  0001 C CNN
+F 3 "~" H 5400 2700 50  0001 C CNN
+	1    5400 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2300 5700 2300
+Wire Wire Line
+	5700 2300 5700 2500
+$Comp
+L Switch:SW_SPST_LED SW2
+U 1 1 6136C2DC
+P 5400 3000
+F 0 "SW2" H 5400 3335 50  0000 C CNN
+F 1 "SW_SPST_LED" H 5400 3244 50  0000 C CNN
+F 2 "GUtils_Footprint:SW_Cherry_MX_LED" H 5400 3300 50  0001 C CNN
+F 3 "~" H 5400 3300 50  0001 C CNN
+	1    5400 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2900 5700 2900
+$Comp
+L Switch:SW_SPST_LED SW3
+U 1 1 6136CB87
+P 5400 3600
+F 0 "SW3" H 5400 3935 50  0000 C CNN
+F 1 "SW_SPST_LED" H 5400 3844 50  0000 C CNN
+F 2 "GUtils_Footprint:SW_Cherry_MX_LED" H 5400 3900 50  0001 C CNN
+F 3 "~" H 5400 3900 50  0001 C CNN
+	1    5400 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3500 5700 3500
+Wire Wire Line
+	5700 3500 5700 3700
+Wire Wire Line
+	5100 2600 4800 2600
+Wire Wire Line
+	4800 2700 5000 2700
+Wire Wire Line
+	4800 2800 4900 2800
+$Comp
+L Connector_Generic:Conn_01x06 J1
+U 1 1 6134F3B7
+P 4600 2600
+F 0 "J1" H 4518 3017 50  0000 C CNN
+F 1 "Conn_01x06" H 4518 2926 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" H 4600 2600 50  0001 C CNN
+F 3 "~" H 4600 2600 50  0001 C CNN
+	1    4600 2600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3700 5700 3700
+Wire Wire Line
+	5000 3100 5700 3100
+Wire Wire Line
+	4800 2500 5700 2500
+Wire Wire Line
+	5700 2900 5700 3100
+Wire Wire Line
+	5200 2400 5200 2600
+Wire Wire Line
+	5800 2500 5800 2400
+Wire Wire Line
+	5800 2400 5600 2400
+Wire Wire Line
+	4800 2900 4800 3700
+Wire Wire Line
+	5000 2700 5000 3100
+Wire Wire Line
+	5100 2600 5100 2900
+Wire Wire Line
+	5200 3000 5200 3200
+Wire Wire Line
+	6100 3000 6100 3800
+Wire Wire Line
+	6100 2900 6000 2900
+Wire Wire Line
+	6000 2900 6000 3600
+Wire Wire Line
+	6000 3600 5600 3600
+Wire Wire Line
+	6100 2800 5900 2800
+Wire Wire Line
+	5900 2800 5900 3200
+Wire Wire Line
+	6100 2700 5800 2700
+Wire Wire Line
+	5800 2700 5800 3000
+Wire Wire Line
+	5800 3000 5600 3000
+Wire Wire Line
+	5200 3800 6100 3800
+Wire Wire Line
+	5200 3200 5900 3200
+Wire Wire Line
+	5200 2600 6100 2600
+Wire Wire Line
+	6100 2500 5800 2500
+Wire Wire Line
+	5200 2900 5100 2900
+Wire Wire Line
+	4800 2400 5100 2400
+Wire Wire Line
+	5100 2400 5100 2300
+Wire Wire Line
+	5100 2300 5200 2300
+Wire Wire Line
+	5200 3600 5200 3800
+Wire Wire Line
+	5200 3500 4900 3500
+Wire Wire Line
+	4900 2800 4900 3500
+$EndSCHEMATC
